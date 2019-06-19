@@ -3,7 +3,7 @@ from marshmallow import Schema, fields, validate
 
  class HacknightSchema(Schema):
     class Meta:
-        fields = ('name', 'lastname', 'email', 'github', 'phone')
+        fields = ('date',)
 
     date = fields.Str(required=True)
 
